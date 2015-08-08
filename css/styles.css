@@ -1,0 +1,55 @@
+body {
+
+background-image: linear-gradient(-90deg, #E3FF80, #80FFF0);
+
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #00a087;
+}
+
+.container {
+    margin-top: 50px;
+}
+ 
+#nav {
+    margin: 13px 0 0 0;
+}
+ 
+#nav ul li {
+    display: inline;
+    margin: 0 20px 0 0;
+    margin-bottom: 130px;
+}
+ 
+#nav a {
+    text-decoration: none;
+}
+ 
+#nav a:hover {
+    text-decoration: underline;
+}
+
+a {
+  text-decoration: inherit;
+  font-style: inherit;
+  color: inherit;
+}
+
+a:link, a:visited {
+ border:none;
+ text-decoration:underline;
+ font-style:normal;
+ color:#0074D9;
+}
+
+a:hover {
+ text-decoration: none;
+ color: #F012BE;
+}
