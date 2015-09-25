@@ -1,0 +1,63 @@
+body {
+background-color: #C1ECFA;
+}
+h2, figcaption {color: blue;}
+p { 
+  background-color: white;
+font-family: 'Work Sans', sans-serif;
+font-weight: bold;
+
+
+}
+#second_paragraph {color: green;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+}
+
+a:hover {
+color: pink;
+}
+
+h1, h2 {color:orange;
+font-family: 'Slackey', cursive;
+font-size: 10px;
+ }
+
+#top_headers {
+
+background-color: purple;
+
+}
+
+#second_div {
+color: black;
+background-color: white;
+font-family: Arial, Verdana, sans-serif;
+}
+
+#aqua_text {
+color: aqua;
+background-color: orange;
+}
+
+#paragraph_1 {
+
+
+}
+
+#paragraph_2 {
+
+
+}
+
+h3 {
+font-weight: normal;
+font-size: 30px;
+font-style: italic;
+text-transform: lowercase;
+}
+
+
+
