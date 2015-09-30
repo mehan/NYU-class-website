@@ -1,0 +1,13 @@
+body {
+background-color: #C1ECFA;
+}
+p, h2, figcaption {color: blue;}
+p {color: red;
+  background-color: white;
+}
+#second_paragraph {color: green;}
+p a {color: black;}
+h1, h2, h3 {color:orange;
+background-color:blue; }
+
+
