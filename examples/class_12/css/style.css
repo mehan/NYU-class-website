@@ -1,0 +1,116 @@
+
+body {
+background-color: #C1ECFA;
+}
+
+a:visited {
+color: red;
+}
+
+#second_paragraph {
+color: black;
+font-family: Arial, Verdana, sans-serif;
+}
+
+#second_div {
+color: black;
+font-family: Arial, Verdana, sans-serif;
+background-color: white;
+width: 500px;
+border-width: 10px;
+border-color: black;
+border-style: solid; 
+border-radius: 20px; 
+padding-left:15px;
+padding-right:15px;
+padding-top: 10px;
+padding-bottom: 1px ;
+margin-top: 75px;
+
+}
+
+#cat_div {
+color: black;
+font-family: Arial, Verdana, sans-serif;
+background-color: white;
+width: 500px;
+border-width: 10px;
+border-color: black;
+border-style: solid; 
+border-radius: 20px; 
+padding-left:15px;
+padding-right:15px;
+padding-top: 1px;
+padding-bottom: 1px;
+margin-top: 10px;
+
+}
+
+h1, h2, h3 {
+font-weight: normal;
+font-size: 30px;
+color: black;
+font-family: Arial, Verdana, sans-serif;
+
+}
+
+#welcome {
+
+top: 0px;
+left: 0px;
+padding: 10px;
+margin: 0px;
+width: 100%;
+position: fixed;
+background-color: white;
+z-index: 1;
+
+
+}
+
+.cat-tongue {
+border-width: 10px;
+border-color: white;
+border-style: solid; 
+border-radius: 20px;  
+margin-top: 50px;
+width: 300px;
+
+
+}
+
+.demo_div {
+background-color: pink;
+width: 300px;
+height: 200px;
+
+}
+
+#box1 {
+
+}
+
+#box2 {
+position: relative;
+top: 100px;
+left: 500px;
+
+	
+}
+
+#box3 {
+clear: left;
+	
+}
+
+#cat_photo {
+float: right;
+
+}
+
+.grey {
+background-color: grey;
+
+}
+
+
