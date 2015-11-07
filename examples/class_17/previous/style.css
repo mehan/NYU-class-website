@@ -1,0 +1,29 @@
+#column1, #column2, #column3 {
+width: 300px;
+float: left;
+margin: 10px;
+
+}
+
+#nav-bar {
+top: 0px;
+left: 0px;
+margin: 0px;
+width: 100%;
+position: fixed;
+z-index: 1;
+background-color: grey;
+padding-left: 10px;
+
+}
+
+#headline {
+margin-top: 75px;
+
+}
+
+@media screen and (min-width: 600px) {
+    #nav-bar {
+        background-color: red;
+    }
+}

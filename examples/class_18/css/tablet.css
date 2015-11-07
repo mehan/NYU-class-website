@@ -1,0 +1,12 @@
+/*tablet styles*/
+@media screen and (max-width: 1277px) {
+
+.column {
+width:40%;
+margin: 50px;
+margin-bottom: 0px;
+margin-top: 0px;
+
+}
+
+}
