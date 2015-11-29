@@ -1,0 +1,52 @@
+body {
+
+background-color: black;
+
+}
+
+h1 {
+color: white;
+
+}
+
+.navbar-default {
+
+background-color: #3d3d5c;
+border-width: 0px;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+color: white;
+
+}
+
+.navbar-default .navbar-brand {color: white;}
+
+.navbar-default .navbar-brand:hover {color: red;}
+
+.navbar-default .navbar-nav>li>a:hover {
+
+color: red;
+
+}
+
+
+.btn-success {
+background-color: aqua;
+border-color: aqua;
+color: black;
+}
+
+.btn-success:hover {
+background-color: blue;
+border-color: blue;
+color: white;
+
+}
+
+
+
+
+
+
