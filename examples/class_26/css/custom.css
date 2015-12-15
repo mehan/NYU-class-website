@@ -32,26 +32,51 @@ color: red;
 }
 
 
-.btn-success {
-background-color: aqua;
-border-color: aqua;
-color: black;
+.st01{fill:white;
+  stroke:white;
+  stroke-miterlimit:30;}
+
+.st11{fill:blue;
+  stroke:white;
+  stroke-miterlimit:10;}
+
+.st21{fill:red;
+  stroke:white;
+  stroke-miterlimit:10;}
+
+.st01:hover {fill:pink;
+  stroke:white;
+  stroke-miterlimit:30;}
+
+  .st01:active {fill:red;
+  stroke:white;
+  stroke-miterlimit:30;}
+
+.st11:hover {
+fill: purple;
+
 }
 
-.btn-success:hover {
-background-color: blue;
-border-color: blue;
-color: white;
+.st11:active {
 
+  fill: magenta;
 }
 
-video {
-width: 30%;
-
-}
-
-
-
+  .st0{fill:#FFFFFF;}
+  .st1{fill:#A6B28A;}
+  .st2{fill:#666666;}
+  .st3{fill:#E6E6E6;}
+  .st4{fill:none;stroke:#F8FCCA;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;}
 
 
+  .st0:hover {fill:pink;}
 
+  .st0:active {fill:black;}
+
+   .st2:hover {fill:red;}
+
+   .st3:hover {fill:green;}
+
+#path3835:hover{fill:purple;}
+
+.st4:hover {stroke: ;}
