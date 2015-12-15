@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../css/reveal.css">
+		<link rel="stylesheet" href="../css/theme/sky_clone.css" id="theme">
+		<link rel="stylesheet" href="../css/reveal_edits.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<img src="../images/parrot.gif">
+					<h3>Introduction to Web Design and Computer Principles</h3>
+					<h4>CSCI-UA.0004-002</h4>
+					<h4>Mehan Jayasuriya</h4>
+					<p>
+						<small>Week 9, 10/27/15</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Understanding UX Design and Wireframing</h2>
+				</section>
+
+				<section>
+					<h2>People have feelings when they use products:</h2>
+					<ul>
+						<li>Happy</li>
+						<li>Satisfied</li>
+						<li>Confused</li>
+						<li>Frustrated</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>User experience (UX) design is the art and science of designing products that delight users</h2>
+				</section>
+
+				<section>
+					<h2>How does using this make you feel?</h2>
+					<img src="../images/DC_metro.jpg">
+				</section>
+
+				<section>
+					<h2>How does using this make you feel?</h2>
+					<img src="../images/NYC_metro.jpg">
+				</section>
+
+				<section>
+					<h2>Pretty does NOT always mean good UX design</h2>
+				</section>
+
+				<section>
+					<a href="http://craigslist.org" target="_blank">Craigslist</a>
+				</section>
+
+				<section>
+					<a href="http://web.mta.info/weekender.html" target="_blank">The Weekender</a>
+				</section>
+
+				<section>
+				<h2>One artifact of UX design for websites is the wireframe</h2>
+				</section>
+
+				<section>
+				<h2>What is a wireframe?</h2>
+				<img src="../images/wireframe.gif">
+				</section>
+
+				<section>
+					<h2>A wireframe is:</h2>
+					<ul>
+						<li>A blueprint for our site</li>
+						<li>A visual representation of the site's layout</li>
+						<li>A document that allows us to design a site's UX before we write code</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Why create a wireframe?</h2>
+					<ul>
+						<li>Work through design problems quickly: sketching is much faster than writing code</li>
+						<li>Taking the time to figure out the layout makes the process of coding your site faster</li>
+						<li>Allows us to create assets we can show to clients to help them understand a site's design</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Tools that can be used to create a wireframe:</h2>
+					<ul>
+						<li><a href="https://balsamiq.com/for/entrepreneurs/">Balsamiq Mockups</a></li>
+						<li><a href="https://www.omnigroup.com/omnigraffle">OmniGraffle</a></li>
+						<li><a href="https://www.sketchapp.com/">Sketch</a></li>
+						<li><a href="http://www.adobe.com/products/">Adobe Apps</a></li>
+					</ul>
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="../lib/js/head.min.js"></script>
+		<script src="../js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../plugin/zoom-js/zoom.js', async: true },
+					{ src: '../plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

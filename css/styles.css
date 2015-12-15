@@ -59,3 +59,9 @@ td ul {
 margin-top: 15px;
 
 }
+
+#donkey {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
